@@ -1,0 +1,380 @@
+{
+  "bookings": [
+    {
+      "id": "bk-001",
+      "customerName": "Tunde Adeyemi",
+      "customerPhone": "08012345678",
+      "services": [
+        "svc-002"
+      ],
+      "staffId": "stf-001",
+      "staffName": "Emeka Okafor",
+      "date": "2025-01-10",
+      "time": "10:00",
+      "totalPrice": 4000,
+      "totalDuration": 45,
+      "status": "completed",
+      "notes": "Wants a low fade with a line design",
+      "createdAt": "2025-01-08T09:30:00Z"
+    },
+    {
+      "id": "bk-002",
+      "customerName": "Kemi Fashola",
+      "customerPhone": "08098765432",
+      "services": [
+        "svc-006"
+      ],
+      "staffId": "stf-004",
+      "staffName": "Fatima Aliyu",
+      "date": "2025-01-11",
+      "time": "14:00",
+      "totalPrice": 6000,
+      "totalDuration": 60,
+      "status": "completed",
+      "notes": "",
+      "createdAt": "2025-01-09T11:00:00Z"
+    },
+    {
+      "id": "bk-003",
+      "customerName": "Segun Bello",
+      "customerPhone": "08055544433",
+      "services": [
+        "svc-008"
+      ],
+      "staffId": "stf-004",
+      "staffName": "Fatima Aliyu",
+      "date": "2025-01-13",
+      "time": "11:00",
+      "totalPrice": 12000,
+      "totalDuration": 90,
+      "status": "completed",
+      "notes": "First time client",
+      "createdAt": "2025-01-11T15:00:00Z"
+    },
+    {
+      "id": "bk-004",
+      "customerName": "Ngozi Okonkwo",
+      "customerPhone": "08066677788",
+      "services": [
+        "svc-012"
+      ],
+      "staffId": "stf-005",
+      "staffName": "Chiamaka Eze",
+      "date": "2025-01-15",
+      "time": "13:00",
+      "totalPrice": 6500,
+      "totalDuration": 90,
+      "status": "completed",
+      "notes": "",
+      "createdAt": "2025-01-13T08:00:00Z"
+    },
+    {
+      "id": "bk-005",
+      "customerName": "Chidi Eze",
+      "customerPhone": "08033344455",
+      "services": [
+        "svc-009"
+      ],
+      "staffId": "stf-004",
+      "staffName": "Fatima Aliyu",
+      "date": "2025-01-17",
+      "time": "15:00",
+      "totalPrice": 15000,
+      "totalDuration": 60,
+      "status": "completed",
+      "notes": "",
+      "createdAt": "2025-01-15T10:00:00Z"
+    },
+    {
+      "id": "bk-006",
+      "customerName": "Amara Obi",
+      "customerPhone": "08022233344",
+      "services": [
+        "svc-004"
+      ],
+      "staffId": "stf-002",
+      "staffName": "Bayo Oladipo",
+      "date": "2025-01-18",
+      "time": "12:00",
+      "totalPrice": 5000,
+      "totalDuration": 60,
+      "status": "completed",
+      "notes": "Wants a taper fade",
+      "createdAt": "2025-01-16T14:00:00Z"
+    },
+    {
+      "id": "bk-007",
+      "customerName": "Biodun Afolabi",
+      "customerPhone": "08011122233",
+      "services": [
+        "svc-001",
+        "svc-003"
+      ],
+      "staffId": "stf-003",
+      "staffName": "Ibrahim Yusuf",
+      "date": "2025-01-20",
+      "time": "09:00",
+      "totalPrice": 4000,
+      "totalDuration": 50,
+      "status": "confirmed",
+      "notes": "",
+      "createdAt": "2025-01-18T07:00:00Z"
+    },
+    {
+      "id": "bk-008",
+      "customerName": "Sola Williams",
+      "customerPhone": "08099988877",
+      "services": [
+        "svc-007"
+      ],
+      "staffId": "stf-004",
+      "staffName": "Fatima Aliyu",
+      "date": "2025-01-21",
+      "time": "16:00",
+      "totalPrice": 8000,
+      "totalDuration": 60,
+      "status": "pending",
+      "notes": "Prefers a quiet room",
+      "createdAt": "2025-01-19T09:00:00Z"
+    },
+    {
+      "id": "bk-009",
+      "customerName": "Funmi Adeyinka",
+      "customerPhone": "08055566677",
+      "services": [
+        "svc-010",
+        "svc-011"
+      ],
+      "staffId": "stf-005",
+      "staffName": "Chiamaka Eze",
+      "date": "2025-01-22",
+      "time": "11:30",
+      "totalPrice": 7000,
+      "totalDuration": 105,
+      "status": "pending",
+      "notes": "",
+      "createdAt": "2025-01-20T11:00:00Z"
+    },
+    {
+      "id": "bk-010",
+      "customerName": "Emeka Nwosu",
+      "customerPhone": "08044455566",
+      "services": [
+        "svc-002"
+      ],
+      "staffId": "stf-001",
+      "staffName": "Emeka Okafor",
+      "date": "2025-01-22",
+      "time": "14:00",
+      "totalPrice": 4000,
+      "totalDuration": 45,
+      "status": "confirmed",
+      "notes": "Regular client — low skin fade",
+      "createdAt": "2025-01-20T16:00:00Z"
+    },
+    {
+      "id": "bk-72ce77b4",
+      "customerName": "John Doe",
+      "customerPhone": "08080156075",
+      "services": [
+        "svc-001",
+        "svc-011",
+        "svc-007"
+      ],
+      "staffId": "stf-001",
+      "staffName": "Emeka Okafor",
+      "date": "2026-03-31",
+      "time": "14:00",
+      "totalPrice": 14500,
+      "totalDuration": 150,
+      "status": "confirmed",
+      "notes": "",
+      "createdAt": "2026-03-27T22:06:07.921Z"
+    },
+    {
+      "id": "bk-0b622127",
+      "customerName": "Fisayomi Babatunde",
+      "customerPhone": "08060758015",
+      "services": [
+        "svc-001",
+        "svc-004",
+        "svc-002"
+      ],
+      "staffId": "stf-001",
+      "staffName": "Emeka Okafor",
+      "date": "2026-03-31",
+      "time": "13:30",
+      "totalPrice": 11500,
+      "totalDuration": 135,
+      "status": "confirmed",
+      "notes": "None",
+      "createdAt": "2026-03-28T07:47:36.006Z"
+    },
+    {
+      "id": "bk-0512a3f7",
+      "customerName": "Fisayomi Babatunde",
+      "customerPhone": "08060758015",
+      "services": [
+        "svc-001"
+      ],
+      "staffId": "stf-001",
+      "staffName": "Emeka Okafor",
+      "date": "2026-03-28",
+      "time": "15:30",
+      "totalPrice": 2500,
+      "totalDuration": 30,
+      "status": "pending",
+      "notes": "",
+      "createdAt": "2026-03-28T09:14:51.727Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust-001",
+      "name": "Tunde Adeyemi",
+      "phone": "08012345678",
+      "visits": 8,
+      "lastVisit": "2025-01-10",
+      "totalSpent": 32000,
+      "services": [
+        "svc-002",
+        "svc-004",
+        "svc-001"
+      ]
+    },
+    {
+      "id": "cust-002",
+      "name": "Kemi Fashola",
+      "phone": "08098765432",
+      "visits": 5,
+      "lastVisit": "2025-01-11",
+      "totalSpent": 30000,
+      "services": [
+        "svc-006",
+        "svc-005",
+        "svc-007"
+      ]
+    },
+    {
+      "id": "cust-003",
+      "name": "Segun Bello",
+      "phone": "08055544433",
+      "visits": 3,
+      "lastVisit": "2025-01-13",
+      "totalSpent": 36000,
+      "services": [
+        "svc-008",
+        "svc-007"
+      ]
+    },
+    {
+      "id": "cust-004",
+      "name": "Ngozi Okonkwo",
+      "phone": "08066677788",
+      "visits": 6,
+      "lastVisit": "2025-01-15",
+      "totalSpent": 39000,
+      "services": [
+        "svc-012",
+        "svc-010",
+        "svc-011"
+      ]
+    },
+    {
+      "id": "cust-005",
+      "name": "Chidi Eze",
+      "phone": "08033344455",
+      "visits": 2,
+      "lastVisit": "2025-01-17",
+      "totalSpent": 30000,
+      "services": [
+        "svc-009"
+      ]
+    },
+    {
+      "id": "cust-006",
+      "name": "Amara Obi",
+      "phone": "08022233344",
+      "visits": 4,
+      "lastVisit": "2025-01-18",
+      "totalSpent": 20000,
+      "services": [
+        "svc-004",
+        "svc-002"
+      ]
+    },
+    {
+      "id": "cust-007",
+      "name": "Biodun Afolabi",
+      "phone": "08011122233",
+      "visits": 1,
+      "lastVisit": "2025-01-20",
+      "totalSpent": 4000,
+      "services": [
+        "svc-001",
+        "svc-003"
+      ]
+    },
+    {
+      "id": "cust-008",
+      "name": "Sola Williams",
+      "phone": "08099988877",
+      "visits": 1,
+      "lastVisit": "2025-01-21",
+      "totalSpent": 8000,
+      "services": [
+        "svc-007"
+      ]
+    },
+    {
+      "id": "cust-009",
+      "name": "Funmi Adeyinka",
+      "phone": "08055566677",
+      "visits": 1,
+      "lastVisit": "2025-01-22",
+      "totalSpent": 7000,
+      "services": [
+        "svc-010",
+        "svc-011"
+      ]
+    },
+    {
+      "id": "cust-010",
+      "name": "Emeka Nwosu",
+      "phone": "08044455566",
+      "visits": 7,
+      "lastVisit": "2025-01-22",
+      "totalSpent": 28000,
+      "services": [
+        "svc-002",
+        "svc-001"
+      ]
+    },
+    {
+      "id": "cust-1774649167921",
+      "name": "John Doe",
+      "phone": "08080156075",
+      "visits": 1,
+      "lastVisit": "2026-03-27",
+      "totalSpent": 14500,
+      "services": [
+        "svc-001",
+        "svc-011",
+        "svc-007"
+      ]
+    },
+    {
+      "id": "cust-1774684056012",
+      "name": "Fisayomi Babatunde",
+      "phone": "08060758015",
+      "visits": 2,
+      "lastVisit": "2026-03-28",
+      "totalSpent": 14000,
+      "services": [
+        "svc-001",
+        "svc-004",
+        "svc-002"
+      ]
+    }
+  ]
+}
