@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply bg-bg text-ink antialiased;
+  }
+
+  body {
+    background-image:
+      radial-gradient(60rem 40rem at 12% -10%, rgba(94, 231, 196, 0.06), transparent 60%),
+      radial-gradient(50rem 30rem at 95% 0%, rgba(229, 183, 105, 0.045), transparent 60%);
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    @apply bg-brand/25;
+  }
+
+  /* Number columns should never jitter as values change. */
+  .tnum {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@layer components {
+  .panel {
+    @apply rounded-xl border border-line bg-panel shadow-panel;
+  }
+
+  .panel-hover {
+    @apply transition-colors hover:border-line2;
+  }
+
+  .label {
+    @apply text-[11px] font-medium uppercase tracking-[0.12em] text-faint;
+  }
+
+  .field {
+    @apply w-full rounded-lg border border-line bg-panel2 px-3 py-2 text-sm text-ink
+           placeholder:text-faint outline-none transition
+           focus:border-brand/60 focus:ring-2 focus:ring-brand/15;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-3.5 py-2 text-sm
+           font-medium transition disabled:cursor-not-allowed disabled:opacity-40;
+  }
+
+  .btn-primary {
+    @apply btn bg-brand text-[#04231C] hover:bg-brand/90;
+  }
+
+  .btn-ghost {
+    @apply btn border border-line text-muted hover:border-line2 hover:text-ink;
+  }
+
+  .btn-danger {
+    @apply btn border border-neg/30 text-neg hover:bg-neg/10;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-md border border-line bg-panel2
+           px-2 py-0.5 text-[11px] font-medium text-muted;
+  }
+
+  .th {
+    @apply px-4 py-2.5 text-left text-[11px] font-medium uppercase tracking-[0.1em] text-faint;
+  }
+
+  .td {
+    @apply px-4 py-3 text-sm;
+  }
+
+  .row {
+    @apply border-t border-line/70 transition-colors hover:bg-panel2/60;
+  }
+}
+
+/* Tables get their own scroll container so the page never scrolls sideways. */
+.table-wrap {
+  overflow-x: auto;
+}
